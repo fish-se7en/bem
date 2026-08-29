@@ -1,0 +1,22 @@
+{
+  "name": "bem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "fish-se7en",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "@jest/globals": "^30.5.0",
+    "jest": "^30.5.0",
+    "typescript": "^7.0.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
