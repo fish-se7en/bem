@@ -1,4 +1,4 @@
-const { createBem } = require('../dist/index.js')
+const { createBem } = require('../dist/cjs/index.js')
 const { test, expect } = require('@jest/globals')
 
 test('name with prefix', () => {
