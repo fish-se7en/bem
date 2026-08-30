@@ -1,10 +1,17 @@
 {
   "name": "bem",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "Block Element Modifier",
+  "main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
     "test": "jest"
   },
   "keywords": [],
