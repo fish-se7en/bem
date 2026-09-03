@@ -1,5 +1,9 @@
 # bem
 Block Element Modifier
+## install
+```shell
+pnpm add @fish-se7en/bem
+```
 ## createBem
 ```js
 import { createBem } from '@fish-se7en/bem'
