@@ -1,5 +1,5 @@
 {
-  "name": "bem",
+  "name": "@fish-se7en/bem",
   "version": "1.0.0",
   "description": "Block Element Modifier",
   "main": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     }
   },
   "scripts": {
-    "build": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
+    "build": "tsc -b",
     "test": "jest"
   },
   "keywords": [],
